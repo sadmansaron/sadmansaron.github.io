@@ -1,8 +1,12 @@
 body {
     background-color: black;
     height: 100vh;
+    /* min-height: 100vh; */
     margin: 0rem;
     overflow: hidden; 
+
+    overscroll-behavior: none;
+    touch-action: none;
     
   }
   
@@ -74,6 +78,7 @@ body {
     margin-left: -50px;
     margin-top: -50px;
     transform: translate(50vw, 50vh);
+    /* top: 50%; left: 50%; transform: translate(-50%, -50%); */
     z-index: 10;
   }
   .cloned {
